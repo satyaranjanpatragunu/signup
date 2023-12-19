@@ -1,0 +1,70 @@
+.card-tepmlet{
+    max-width: 40%;
+    padding-bottom: 20px;
+    margin: 0 auto;
+    background-color: azure;
+    text-align: center;
+    margin-top: 10%;
+    border-radius: 10px;
+
+}
+.card-tepmlet hr{
+    height: 5px;
+    width: 15%;
+   background-color:rgb(121, 121, 247);
+}
+.underline{
+  height:7px;
+  width: 50px;
+  background-color: blue;
+  margin: 0 auto;
+}
+.card-tepmlet h1{
+    color:rgb(121, 121, 247)
+}
+body{
+    background-color: blue;
+}
+.inputs{
+    display:flex;
+    width:90%;
+    height: 60px;
+    gap: 20px;
+    background-color: gainsboro;
+    align-items: center;
+    border-radius: 10px;
+    margin: 0 auto;
+    margin-top: 30px;
+    padding-left: 20px;
+}
+.inputs input{
+    border: none;
+    background-color:transparent;
+    height: 100%;
+    width: 100%;
+    outline: none;
+    cursor: pointer;
+
+}
+.input-fields{
+    display: flex;
+    flex-direction:column;
+    gap: 40px;
+}
+.Buttons{
+    display: flex;
+    
+}
+.submit{
+    padding: 10px 35px;
+    background-color: blueviolet;
+    margin: 0 auto;
+    border-radius: 20px;
+    margin-top: 20px;
+   cursor: pointer;
+
+}
+.gray{
+    background: #eaeaea;
+    color: #676767;
+}
